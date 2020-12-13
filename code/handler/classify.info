@@ -1,0 +1,79 @@
+eval case: classify...
+	 classifier: LogisticRegression
+	 total labeled data size: 80513
+	 total labels size: 195
+	 repeat 1 times for each train_ratio in [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+
+--------------------
+train_ratio = 0.1
+mean results for 1 repeated times:
+		 Macro_F1 = 0.19188270315156594
+		 Micro_F1 = 0.35492017027592526
+details:
+	 repeated 1/1: Macro_F1 = 0.19188270315156594, Micro_F1 = 0.35492017027592526
+
+--------------------
+train_ratio = 0.2
+mean results for 1 repeated times:
+		 Macro_F1 = 0.21274528130780163
+		 Micro_F1 = 0.37026581160834604
+details:
+	 repeated 1/1: Macro_F1 = 0.21274528130780163, Micro_F1 = 0.37026581160834604
+
+--------------------
+train_ratio = 0.3
+mean results for 1 repeated times:
+		 Macro_F1 = 0.22347490544704526
+		 Micro_F1 = 0.37545474990408906
+details:
+	 repeated 1/1: Macro_F1 = 0.22347490544704526, Micro_F1 = 0.37545474990408906
+
+--------------------
+train_ratio = 0.4
+mean results for 1 repeated times:
+		 Macro_F1 = 0.23217974325723992
+		 Micro_F1 = 0.3776978417266187
+details:
+	 repeated 1/1: Macro_F1 = 0.23217974325723992, Micro_F1 = 0.3776978417266187
+
+--------------------
+train_ratio = 0.5
+mean results for 1 repeated times:
+		 Macro_F1 = 0.23705906149236614
+		 Micro_F1 = 0.3823102948284195
+details:
+	 repeated 1/1: Macro_F1 = 0.23705906149236614, Micro_F1 = 0.3823102948284195
+
+--------------------
+train_ratio = 0.6
+mean results for 1 repeated times:
+		 Macro_F1 = 0.23498431957173435
+		 Micro_F1 = 0.3853796689648768
+details:
+	 repeated 1/1: Macro_F1 = 0.23498431957173435, Micro_F1 = 0.3853796689648768
+
+--------------------
+train_ratio = 0.7
+mean results for 1 repeated times:
+		 Macro_F1 = 0.23647027839700574
+		 Micro_F1 = 0.3833379806053845
+details:
+	 repeated 1/1: Macro_F1 = 0.23647027839700574, Micro_F1 = 0.3833379806053845
+
+--------------------
+train_ratio = 0.8
+mean results for 1 repeated times:
+		 Macro_F1 = 0.24598988697891158
+		 Micro_F1 = 0.38558008237308505
+details:
+	 repeated 1/1: Macro_F1 = 0.24598988697891158, Micro_F1 = 0.38558008237308505
+
+--------------------
+train_ratio = 0.9
+mean results for 1 repeated times:
+		 Macro_F1 = 0.24650420698664452
+		 Micro_F1 = 0.3889869068622896
+details:
+	 repeated 1/1: Macro_F1 = 0.24650420698664452, Micro_F1 = 0.3889869068622896
+
+eval case: classify completed in 3774.665190219879s
